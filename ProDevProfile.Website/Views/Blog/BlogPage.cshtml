@@ -1,0 +1,961 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	ViewData["Title"] = "Blog Page";
+}
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Blog &#8211; My Blog</title>
+	<meta name='robots' content='max-image-preview:large' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel="alternate" type="application/rss+xml" title="My Blog &raquo; Feed" href="../feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="My Blog &raquo; Comments Feed" href="../comments/feed/index.html" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/tunis-wp.ibthemespro.com\/light-version\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.1" } };
+		/*! This file is auto-generated */
+		!function (i, n) { var o, s, e; function c(e) { try { var t = { supportTests: e, timestamp: (new Date).valueOf() }; sessionStorage.setItem(o, JSON.stringify(t)) } catch (e) { } } function p(e, t, n) { e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0); var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data), r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)); return t.every(function (e, t) { return e === r[t] }) } function u(e, t, n) { switch (t) { case "flag": return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"); case "emoji": return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff") }return !1 } function f(e, t, n) { var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"), a = r.getContext("2d", { willReadFrequently: !0 }), o = (a.textBaseline = "top", a.font = "600 32px Arial", {}); return e.forEach(function (e) { o[e] = t(a, e, n) }), o } function t(e) { var t = i.createElement("script"); t.src = e, t.defer = !0, i.head.appendChild(t) } "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = { everything: !0, everythingExceptFlag: !0 }, e = new Promise(function (e) { i.addEventListener("DOMContentLoaded", e, { once: !0 }) }), new Promise(function (t) { var n = function () { try { var e = JSON.parse(sessionStorage.getItem(o)); if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests } catch (e) { } return null }(); if (!n) { if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try { var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));", r = new Blob([e], { type: "text/javascript" }), a = new Worker(URL.createObjectURL(r), { name: "wpTestEmojiSupports" }); return void (a.onmessage = function (e) { c(n = e.data), a.terminate(), t(n) }) } catch (e) { } c(n = f(s, u, p)) } t(n) }).then(function (e) { for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]); n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function () { n.DOMReady = !0 } }).then(function () { return e }).then(function () { var e; n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji))) })) }((window, document), window._wpemojiSettings);
+		/* ]]> */
+	</script>
+	<link rel='stylesheet' id='dashicons-css' href='../wp-includes/css/dashicons.minaec2.css?ver=6.4.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='menu-icon-font-awesome-css' href='../wp-content/plugins/menu-icons/css/fontawesome/css/all.min7a5f.css?ver=5.15.4' type='text/css' media='all' />
+	<link rel='stylesheet' id='menu-icons-extra-css' href='../wp-content/plugins/menu-icons/css/extra.minb36a.css?ver=0.13.7' type='text/css' media='all' />
+	<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+		img.wp-smiley, img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+	</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='../wp-includes/css/dist/block-library/style.minaec2.css?ver=6.4.1' type='text/css' media='all' />
+	<style id='wp-block-library-theme-inline-css' type='text/css'>
+		.wp-block-audio figcaption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-audio figcaption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-audio {
+			margin: 0 0 1em
+		}
+
+		.wp-block-code {
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-family: Menlo,Consolas,monaco,monospace;
+			padding: .8em 1em
+		}
+
+		.wp-block-embed figcaption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-embed figcaption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-embed {
+			margin: 0 0 1em
+		}
+
+		.blocks-gallery-caption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .blocks-gallery-caption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-image figcaption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-image figcaption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-image {
+			margin: 0 0 1em
+		}
+
+		.wp-block-pullquote {
+			border-bottom: 4px solid;
+			border-top: 4px solid;
+			color: currentColor;
+			margin-bottom: 1.75em
+		}
+
+			.wp-block-pullquote cite, .wp-block-pullquote footer, .wp-block-pullquote__citation {
+				color: currentColor;
+				font-size: .8125em;
+				font-style: normal;
+				text-transform: uppercase
+			}
+
+		.wp-block-quote {
+			border-left: .25em solid;
+			margin: 0 0 1.75em;
+			padding-left: 1em
+		}
+
+			.wp-block-quote cite, .wp-block-quote footer {
+				color: currentColor;
+				font-size: .8125em;
+				font-style: normal;
+				position: relative
+			}
+
+			.wp-block-quote.has-text-align-right {
+				border-left: none;
+				border-right: .25em solid;
+				padding-left: 0;
+				padding-right: 1em
+			}
+
+			.wp-block-quote.has-text-align-center {
+				border: none;
+				padding-left: 0
+			}
+
+			.wp-block-quote.is-large, .wp-block-quote.is-style-large, .wp-block-quote.is-style-plain {
+				border: none
+			}
+
+		.wp-block-search .wp-block-search__label {
+			font-weight: 700
+		}
+
+		.wp-block-search__button {
+			border: 1px solid #ccc;
+			padding: .375em .625em
+		}
+
+		:where(.wp-block-group.has-background) {
+			padding: 1.25em 2.375em
+		}
+
+		.wp-block-separator.has-css-opacity {
+			opacity: .4
+		}
+
+		.wp-block-separator {
+			border: none;
+			border-bottom: 2px solid;
+			margin-left: auto;
+			margin-right: auto
+		}
+
+			.wp-block-separator.has-alpha-channel-opacity {
+				opacity: 1
+			}
+
+			.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+				width: 100px
+			}
+
+			.wp-block-separator.has-background:not(.is-style-dots) {
+				border-bottom: none;
+				height: 1px
+			}
+
+			.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+				height: 2px
+			}
+
+		.wp-block-table {
+			margin: 0 0 1em
+		}
+
+			.wp-block-table td, .wp-block-table th {
+				word-break: normal
+			}
+
+			.wp-block-table figcaption {
+				color: #555;
+				font-size: 13px;
+				text-align: center
+			}
+
+		.is-dark-theme .wp-block-table figcaption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-video figcaption {
+			color: #555;
+			font-size: 13px;
+			text-align: center
+		}
+
+		.is-dark-theme .wp-block-video figcaption {
+			color: hsla(0,0%,100%,.65)
+		}
+
+		.wp-block-video {
+			margin: 0 0 1em
+		}
+
+		.wp-block-template-part.has-background {
+			margin-bottom: 0;
+			margin-top: 0;
+			padding: 1.25em 2.375em
+		}
+	</style>
+	<style id='classic-theme-styles-inline-css' type='text/css'>
+		/*! This file is auto-generated */
+		.wp-block-button__link {
+			color: #fff;
+			background-color: #32373c;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+	</style>
+	<style id='global-styles-inline-css' type='text/css'>
+		body {
+			--wp--preset--color--black: #000000;
+			--wp--preset--color--cyan-bluish-gray: #abb8c3;
+			--wp--preset--color--white: #ffffff;
+			--wp--preset--color--pale-pink: #f78da7;
+			--wp--preset--color--vivid-red: #cf2e2e;
+			--wp--preset--color--luminous-vivid-orange: #ff6900;
+			--wp--preset--color--luminous-vivid-amber: #fcb900;
+			--wp--preset--color--light-green-cyan: #7bdcb5;
+			--wp--preset--color--vivid-green-cyan: #00d084;
+			--wp--preset--color--pale-cyan-blue: #8ed1fc;
+			--wp--preset--color--vivid-cyan-blue: #0693e3;
+			--wp--preset--color--vivid-purple: #9b51e0;
+			--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+			--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+			--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+			--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+			--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+			--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+			--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+			--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+			--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+			--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+			--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+			--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+			--wp--preset--font-size--small: 13px;
+			--wp--preset--font-size--medium: 20px;
+			--wp--preset--font-size--large: 36px;
+			--wp--preset--font-size--x-large: 42px;
+			--wp--preset--spacing--20: 0.44rem;
+			--wp--preset--spacing--30: 0.67rem;
+			--wp--preset--spacing--40: 1rem;
+			--wp--preset--spacing--50: 1.5rem;
+			--wp--preset--spacing--60: 2.25rem;
+			--wp--preset--spacing--70: 3.38rem;
+			--wp--preset--spacing--80: 5.06rem;
+			--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+			--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+			--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+			--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+		}
+
+		:where(.is-layout-flex) {
+			gap: 0.5em;
+		}
+
+		:where(.is-layout-grid) {
+			gap: 0.5em;
+		}
+
+		body .is-layout-flow > .alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-flow > .alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-flow > .aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained > .alignleft {
+			float: left;
+			margin-inline-start: 0;
+			margin-inline-end: 2em;
+		}
+
+		body .is-layout-constrained > .alignright {
+			float: right;
+			margin-inline-start: 2em;
+			margin-inline-end: 0;
+		}
+
+		body .is-layout-constrained > .aligncenter {
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+			max-width: var(--wp--style--global--content-size);
+			margin-left: auto !important;
+			margin-right: auto !important;
+		}
+
+		body .is-layout-constrained > .alignwide {
+			max-width: var(--wp--style--global--wide-size);
+		}
+
+		body .is-layout-flex {
+			display: flex;
+		}
+
+		body .is-layout-flex {
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+			body .is-layout-flex > * {
+				margin: 0;
+			}
+
+		body .is-layout-grid {
+			display: grid;
+		}
+
+			body .is-layout-grid > * {
+				margin: 0;
+			}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		.has-black-color {
+			color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-color {
+			color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-color {
+			color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-color {
+			color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-color {
+			color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-color {
+			color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-color {
+			color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-color {
+			color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-color {
+			color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-color {
+			color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-color {
+			color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-color {
+			color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-background-color {
+			background-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-background-color {
+			background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-background-color {
+			background-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-background-color {
+			background-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-background-color {
+			background-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-background-color {
+			background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-background-color {
+			background-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-background-color {
+			background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-background-color {
+			background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-background-color {
+			background-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-black-border-color {
+			border-color: var(--wp--preset--color--black) !important;
+		}
+
+		.has-cyan-bluish-gray-border-color {
+			border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+		}
+
+		.has-white-border-color {
+			border-color: var(--wp--preset--color--white) !important;
+		}
+
+		.has-pale-pink-border-color {
+			border-color: var(--wp--preset--color--pale-pink) !important;
+		}
+
+		.has-vivid-red-border-color {
+			border-color: var(--wp--preset--color--vivid-red) !important;
+		}
+
+		.has-luminous-vivid-orange-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-amber-border-color {
+			border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+		}
+
+		.has-light-green-cyan-border-color {
+			border-color: var(--wp--preset--color--light-green-cyan) !important;
+		}
+
+		.has-vivid-green-cyan-border-color {
+			border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+		}
+
+		.has-pale-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+		}
+
+		.has-vivid-cyan-blue-border-color {
+			border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+		}
+
+		.has-vivid-purple-border-color {
+			border-color: var(--wp--preset--color--vivid-purple) !important;
+		}
+
+		.has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+			background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+		}
+
+		.has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+			background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+		}
+
+		.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+		}
+
+		.has-luminous-vivid-orange-to-vivid-red-gradient-background {
+			background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+		}
+
+		.has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+			background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+		}
+
+		.has-cool-to-warm-spectrum-gradient-background {
+			background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+		}
+
+		.has-blush-light-purple-gradient-background {
+			background: var(--wp--preset--gradient--blush-light-purple) !important;
+		}
+
+		.has-blush-bordeaux-gradient-background {
+			background: var(--wp--preset--gradient--blush-bordeaux) !important;
+		}
+
+		.has-luminous-dusk-gradient-background {
+			background: var(--wp--preset--gradient--luminous-dusk) !important;
+		}
+
+		.has-pale-ocean-gradient-background {
+			background: var(--wp--preset--gradient--pale-ocean) !important;
+		}
+
+		.has-electric-grass-gradient-background {
+			background: var(--wp--preset--gradient--electric-grass) !important;
+		}
+
+		.has-midnight-gradient-background {
+			background: var(--wp--preset--gradient--midnight) !important;
+		}
+
+		.has-small-font-size {
+			font-size: var(--wp--preset--font-size--small) !important;
+		}
+
+		.has-medium-font-size {
+			font-size: var(--wp--preset--font-size--medium) !important;
+		}
+
+		.has-large-font-size {
+			font-size: var(--wp--preset--font-size--large) !important;
+		}
+
+		.has-x-large-font-size {
+			font-size: var(--wp--preset--font-size--x-large) !important;
+		}
+
+		.wp-block-navigation a:where(:not(.wp-element-button)) {
+			color: inherit;
+		}
+
+		:where(.wp-block-post-template.is-layout-flex) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-post-template.is-layout-grid) {
+			gap: 1.25em;
+		}
+
+		:where(.wp-block-columns.is-layout-flex) {
+			gap: 2em;
+		}
+
+		:where(.wp-block-columns.is-layout-grid) {
+			gap: 2em;
+		}
+
+		.wp-block-pullquote {
+			font-size: 1.5em;
+			line-height: 1.6;
+		}
+	</style>
+	<link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/stylesf658.css?ver=5.8.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='circle-css-css' href='../wp-content/plugins/tunis-toolkit/assets/css/circle5152.css?ver=1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='tunis-toolkit-css' href='../wp-content/plugins/tunis-toolkit/assets/css/tunis-toolkit5152.css?ver=1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='sorex-google-fonts-css' href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CPoppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i' type='text/css' media='all' />
+	<link rel='stylesheet' id='animate-css' href='../wp-content/themes/tunis-wp/assets/css/animate.min5152.css?ver=1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/tunis-wp/assets/css/bootstrap.mince52.css?ver=5.0.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='fontawesome-pro-css' href='../wp-content/themes/tunis-wp/assets/css/font-awesome-pro7a5f.css?ver=5.15.4' type='text/css' media='all' />
+	<link rel='stylesheet' id='meanmenu-css' href='../wp-content/themes/tunis-wp/assets/css/meanmenu5d0a.html?ver=2.0.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='tunis-reset-css' href='../wp-content/themes/tunis-wp/assets/css/reset5152.css?ver=1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='tunis-style-css' href='../wp-content/themes/tunis-wp/styleaec2.css?ver=6.4.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='tunis-custom-style-css' href='../wp-content/themes/tunis-wp/assets/css/tunis-default8a54.css?ver=1.0.0' type='text/css' media='all' />
+	<style id='tunis-custom-style-inline-css' type='text/css'>
+
+		body {
+			font-family: Poppins, sans-serif;
+			font-weight: 400;
+		}
+
+		h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			font-family: "Poppins", sans-serif !important;
+			font-weight: 700 !important;
+		}
+
+		.cs_nav .cs_nav_list a {
+			font-family: "Poppins", sans-serif !important;
+			font-weight: 500 !important;
+		}
+
+
+		:root {
+			--common-primary-color: #72b626 !important;
+		}
+
+	</style>
+	<link rel='stylesheet' id='elementor-icons-css' href='../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min192d.css?ver=5.23.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/plugins/elementor/assets/css/frontend-lite.min33f1.css?ver=3.16.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='swiper-css' href='../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='elementor-post-8-css' href='../wp-content/uploads/elementor/css/post-88b6e.css?ver=1697367761' type='text/css' media='all' />
+	<link rel='stylesheet' id='tunis-essentials-css' href='../wp-content/plugins/tunis-toolkit/elementor-addons/widgets/css/tunis-essentialsaec2.html?ver=6.4.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='elementor-global-css' href='../wp-content/uploads/elementor/css/global8b6e.css?ver=1697367761' type='text/css' media='all' />
+	<link rel='stylesheet' id='elementor-post-241-css' href='../wp-content/uploads/elementor/css/post-24158a5.css?ver=1697367776' type='text/css' media='all' />
+	<link rel='stylesheet' id='csf-google-web-fonts-css' href='http://fonts.googleapis.com/css?family=Poppins:400,700,500&amp;display=swap' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.4.1' type='text/css' media='all' />
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<script type="text/javascript" src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
+	<script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/modernizer5152.js?ver=1.0" id="modernizer-js-js"></script>
+	<link rel="https://api.w.org/" href="../wp-json/index.html" />
+	<link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/241.json" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
+	<meta name="generator" content="WordPress 6.4.1" />
+	<link rel="canonical" href="index.html" />
+	<link rel='shortlink' href='../index03e1.html?p=241' />
+	<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed288f.json?url=https%3A%2F%2Ftunis-wp.ibthemespro.com%2Flight-version%2Fblog%2F" />
+	<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed2e19?url=https%3A%2F%2Ftunis-wp.ibthemespro.com%2Flight-version%2Fblog%2F&amp;format=xml" />
+	<meta name="generator" content="Elementor 3.16.5; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+	<link rel="icon" href="../wp-content/uploads/2023/10/cropped-favicon-150x150.png" sizes="32x32" />
+	<link rel="icon" href="../wp-content/uploads/2023/10/cropped-favicon-300x300.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="../wp-content/uploads/2023/10/cropped-favicon-300x300.png" />
+	<meta name="msapplication-TileImage" content="https://tunis-wp.ibthemespro.com/light-version/wp-content/uploads/2023/10/cropped-favicon-300x300.png" />
+
+</head>
+
+<body class=" light-theme " class="page-template-default page page-id-241 no-sidebar elementor-default elementor-kit-8 elementor-page elementor-page-241">
+
+
+	<div id="page" class="site page-wrapper home-1  light-theme ">
+
+		<div id="preloader" class="preloader cs_preloader"><div class="black_wall"></div><div class="loader"></div></div>
+
+		<!-- Header Starts -->
+		<header class="header 1" id="navbar-collapse-toggle">
+
+
+
+
+			<!-- Mobile Menu Starts -->
+			<nav role="navigation" class="d-block d-lg-none tunis-mobile-menu">
+				<div id="menuToggle">
+					<input type="checkbox" />
+					<span></span>
+					<span></span>
+					<span></span>
+					<div class="menu-mobile-menu-container">
+						<ul id="menu" class="list-unstyled">
+							<li id="menu-item-1646" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1646"><a aria-current="page" asp-area="" asp-controller="Home" asp-action="Index"><i class="_mi _before fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
+
+							<li id="menu-item-1647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647"><a aria-current="page" asp-area="" asp-controller="About" asp-action="AboutPage"><i class="_mi _before fa fa-user" aria-hidden="true"></i><span>About Me</span></a></li>
+
+							<li id="menu-item-1649" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1649"><a aria-current="page" asp-area="" asp-controller="Portfolio" asp-action="PortfolioPage"><i class="_mi _before fa fa-briefcase" aria-hidden="true"></i><span>Works</span></a></li>
+
+							<li id="menu-item-1648" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1648"><a aria-current="page" asp-area="" asp-controller="Contact" asp-action="ContactPage"><i class="_mi _before fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+
+							<li id="menu-item-1650" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-241 current_page_item menu-item-1650 active "><a aria-current ="page" asp-area="" asp-controller="Blog" asp-action="BlogPage"><i class="_mi _before fab fa-weixin" aria-hidden="true"></i><span>Blog</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Mobile Menu Ends -->
+
+
+			<div class="menu-header-menu-2-container">
+				<ul id="primary-menu" class="icon-menu d-none d-lg-block revealator-slideup revealator-once  revealator-delay1">
+					<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-264"><a aria-current="page" asp-area="" asp-controller="Home" asp-action="Index"><i class="_mi _before fa fa-home" aria-hidden="true"></i><span>Home</span></a></li>
+
+					<li id="menu-item-1435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1435"><a aria-current="page" asp-area="" asp-controller="About" asp-action="AboutPage"><i class="_mi _before fa fa-user" aria-hidden="true"></i><span>About</span></a></li>
+
+					<li id="menu-item-1614" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1614"><a aria-current="page" asp-area="" asp-controller="Portfolio" asp-action="PortfolioPage"><i class="_mi _before fa fa-briefcase" aria-hidden="true"></i><span>Portfolio</span></a></li>
+
+					<li id="menu-item-1615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1615"><a aria-current="page" asp-area="" asp-controller="Contact" asp-action="ContactPage"><i class="_mi _before fa fa-envelope" aria-hidden="true"></i><span>Contact</span></a></li>
+
+					<li id="menu-item-1616" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-241 current_page_item menu-item-1616 active "><a aria-current="page" asp-area="" asp-controller="Blog" asp-action="BlogPage"><i class="_mi _before fas fa-pencil-alt" aria-hidden="true"></i><span>Blog</span></a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- Header Ends -->
+
+
+		<main class="main-content revealator-slideup revealator-once revealator-delay1">
+			<!-- Breadcrumbs -->
+			<!--/ End Breadcrumbs -->
+
+			<div class="tunis-internal-area tunis-entry-page">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="tunis-page-content-wrap">
+
+								<article id="post-241" class="post-241 page type-page status-publish hentry">
+
+									<div class="entry-content">
+										<div data-elementor-type="wp-page" data-elementor-id="241" class="elementor elementor-241">
+											<section class="elementor-section elementor-top-section elementor-element elementor-element-24edaa5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="24edaa5" data-element_type="section">
+												<div class="elementor-container elementor-column-gap-default">
+													<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e8d6b2" data-id="3e8d6b2" data-element_type="column">
+														<div class="elementor-widget-wrap elementor-element-populated">
+															<section class="elementor-section elementor-inner-section elementor-element elementor-element-8a10311 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8a10311" data-element_type="section">
+																<div class="elementor-container elementor-column-gap-default">
+																	<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c751fe7" data-id="c751fe7" data-element_type="column">
+																		<div class="elementor-widget-wrap elementor-element-populated">
+																			<div class="elementor-element elementor-element-cb261e7 elementor-widget elementor-widget-tunis-section-title" data-id="cb261e7" data-element_type="widget" data-widget_type="tunis-section-title.default">
+																				<div class="elementor-widget-container">
+
+
+																					<div class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1 text-left">
+																						<h1>My <span>Blog</span></h1>
+																						<span class="title-bg">POSTS</span>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</section>
+															<section class="elementor-section elementor-inner-section elementor-element elementor-element-5f1fefe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f1fefe" data-element_type="section">
+																<div class="elementor-container elementor-column-gap-default">
+																	<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-22288e2" data-id="22288e2" data-element_type="column">
+																		<div class="elementor-widget-wrap elementor-element-populated">
+																			<div class="elementor-element elementor-element-9bf03d1 elementor-widget elementor-widget-blog-widget" data-id="9bf03d1" data-element_type="widget" data-widget_type="blog-widget.default">
+																				<div class="elementor-widget-container">
+																					<div id="news-slider" class="row news-default news-m-zero">
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="https://www.thinkful.com/blog/software-engineering-blogs/" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-3-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3>
+																											<a href="https://www.thinkful.com/blog/software-engineering-blogs/">
+																												Must-Read Software Engineering Blogs : By Thinkful
+																											</a>
+																										</h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>
+																											Software engineering is a constantly evolving field with new technology and tools emerging all the time. And even for the most enthusiastic developers.
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="https://www.wearedevelopers.com/magazine/software-development-blogs" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-1-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3><a href="https://www.wearedevelopers.com/magazine/software-development-blogs">The Best Software Developer Blogs to Read</a></h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>Change is a tenant of software engineering. Our industry constantly changexs to meet the needs of innovation and requirements of our customers; further, we have a difficult responsibility to keep up with trends.
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="https://medium.com/geekculture/my-10-favorite-software-engineering-blogs-60b5e486491d" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-2-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3><a href="https://medium.com/geekculture/my-10-favorite-software-engineering-blogs-60b5e486491d">My 10 Favorite Software Engineering Blogs</a></h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>
+																											In my opinion there are a few characteristics of a good engineering blog: The content is written by people like software engineers or data scientists and The blog posts are not just glorified product marketing.
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="../2023/10/12/everything-you-need-to-know-about-web-accessibility/index.html" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-3-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3><a href="../2023/10/12/everything-you-need-to-know-about-web-accessibility/index.html">Everything You Need to Know About Web Accessibility</a></h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>
+																											Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="../2023/10/12/how-to-inject-humor-comedy-into-your-brand/index.html" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-4-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3><a href="../2023/10/12/how-to-inject-humor-comedy-into-your-brand/index.html">How to Inject Humor &#038; Comedy Into Your Brand</a></h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>
+																											Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="col-xl-4 col-lg-6 col-md-6 col-12">
+																							<div class="post-container">
+																								<div class="post-thumb">
+																									<a href="../2023/10/12/women-in-web-design-how-to-achieve-success/index.html" class="d-block position-relative overflow-hidden">
+																										<img decoding="async" src="../wp-content/uploads/2023/09/blog-post-5-300x300.jpg" class="img-fluid" alt="">
+																									</a>
+																								</div>
+
+																								<div class="post-content">
+																									<div class="entry-header">
+																										<h3><a href="../2023/10/12/women-in-web-design-how-to-achieve-success/index.html">Women in Web Design: How To Achieve Success</a></h3>
+																									</div>
+																									<div class="entry-content open-sans-font">
+																										<p>
+																											Aliquam hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam tempus sollicitudin cursus. Ut
+																										</p>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<div class="row">
+																						<div class="col-12">
+																							<div class="pagination-plugin">
+																								<ul class="pagination-list">
+																									<span aria-current="page" class="page-numbers current">1</span>
+																									<a class="page-numbers" aria-current="page" asp-area="" asp-controller="Blog" asp-action="BlogPage">2</a>
+																									<a class="next page-numbers" aria-current="page" asp-area="" asp-controller="Blog" asp-action="BlogPage">Next</a> 
+																								</ul>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</section>
+														</div>
+													</div>
+												</div>
+											</section>
+										</div>
+									</div><!-- .entry-content -->
+
+								</article><!-- #post-241 -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</main>
+
+
+
+	</div>
+	</div>
+
+	<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/swv/js/indexf658.js?ver=5.8.1" id="swv-js"></script>
+	<script type="text/javascript" id="contact-form-7-js-extra">
+		/* <![CDATA[ */
+		var wpcf7 = { "api": { "root": "https:\/\/tunis-wp.ibthemespro.com\/light-version\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../wp-content/plugins/contact-form-7/includes/js/indexf658.js?ver=5.8.1" id="contact-form-7-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/fm.revealator.jquery.min5152.js?ver=1.0" id="Revealator-js-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/imagesloaded-pkgdeda1.js?ver=4.1.4" id="imagesloaded-pkgd-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/isotope.pkgd.min605a.js?ver=2.2.2" id="isotope-pkgd-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/classie8a54.js?ver=1.0.0" id="classie-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/cbpGridGallery8a54.js?ver=1.0.0" id="cbpGridGallery-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/jquery.hoverdirf488.js?ver=1.1.0" id="hover-dir-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/popper.minf488.js?ver=1.1.0" id="popper-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/tunis-toolkit/assets/js/plugin-active5152.js?ver=1.0" id="plugin-js"></script>
+	<script type="text/javascript" src="../wp-content/themes/tunis-wp/assets/js/bootstrap.mince52.js?ver=5.0.2" id="bootstrap-js"></script>
+	<script type="text/javascript" src="../wp-includes/js/imagesloaded.minbb93.js?ver=5.0.0" id="imagesloaded-js"></script>
+	<script type="text/javascript" src="../wp-includes/js/masonry.min3a05.js?ver=4.2.2" id="masonry-js"></script>
+	<script type="text/javascript" src="../wp-includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+	<script type="text/javascript" src="../wp-content/themes/tunis-wp/assets/js/main5152.js?ver=1.0" id="tunis-active-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/webpack.runtime.min33f1.js?ver=3.16.5" id="elementor-webpack-runtime-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend-modules.min33f1.js?ver=3.16.5" id="elementor-frontend-modules-js"></script>
+	<script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+	<script type="text/javascript" src="../wp-includes/js/jquery/ui/core.min3f14.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+	<script type="text/javascript" id="elementor-frontend-js-before">
+		/* <![CDATA[ */
+		var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.16.5", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "container": true, "e_swiper_latest": true, "landing-pages": true, "e_global_styleguide": true }, "urls": { "assets": "https:\/\/tunis-wp.ibthemespro.com\/light-version\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper", "settings": { "page": [], "editorPreferences": [] }, "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 241, "title": "Blog%20%E2%80%93%20My%20Blog", "excerpt": "", "featuredImage": false } };
+		/* ]]> */
+	</script>
+	<script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.min33f1.js?ver=3.16.5" id="elementor-frontend-js"></script>
+</body>

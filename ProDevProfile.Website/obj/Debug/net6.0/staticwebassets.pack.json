@@ -1,0 +1,653 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProDevProfile.Website.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProDevProfile.Website.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\contact-form-7\\includes\\css\\stylesf658.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\contact-form-7\\includes\\css\\stylesf658.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\contact-form-7\\includes\\js\\indexf658.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\contact-form-7\\includes\\js\\indexf658.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\contact-form-7\\includes\\swv\\js\\indexf658.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\contact-form-7\\includes\\swv\\js\\indexf658.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\css\\frontend-lite.min33f1.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\css\\frontend-lite.min33f1.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\js\\frontend-modules.min33f1.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\js\\frontend-modules.min33f1.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\js\\frontend.min33f1.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\js\\frontend.min33f1.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\js\\webpack.runtime.min33f1.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\js\\webpack.runtime.min33f1.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\css\\elementor-icons.min192d.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\css\\elementor-icons.min192d.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.eot",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.svg",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.woff",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\eicons\\fonts\\eicons9506.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\brands.min52d5.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\brands.min52d5.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\fontawesome.min52d5.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\fontawesome.min52d5.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\solid.min52d5.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\css\\solid.min52d5.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\font-awesome\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\swiper\\v8\\css\\swiper.min94a4.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\swiper\\v8\\css\\swiper.min94a4.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\elementor\\assets\\lib\\waypoints\\waypoints.min05da.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\elementor\\assets\\lib\\waypoints\\waypoints.min05da.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\extra.minb36a.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\extra.minb36a.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\css\\all.min7a5f.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\css\\all.min7a5f.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\menu-icons\\css\\fontawesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\css\\circle5152.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\css\\circle5152.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\css\\tunis-toolkit5152.css",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\css\\tunis-toolkit5152.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\2.html",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\2.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\close-button.png",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\close-button.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\left-arrow.png",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\left-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\close-button.html",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\close-button.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\left-arrow.html",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\left-arrow.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\right-arrow.html",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\projects\\navigation\\right-arrow.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\right-arrow.png",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\img\\right-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\cbpGridGallery8a54.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\cbpGridGallery8a54.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\classie8a54.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\classie8a54.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\fm.revealator.jquery.min5152.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\fm.revealator.jquery.min5152.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\imagesloaded-pkgdeda1.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\imagesloaded-pkgdeda1.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\isotope.pkgd.min605a.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\isotope.pkgd.min605a.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\jquery.hoverdirf488.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\jquery.hoverdirf488.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\modernizer5152.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\modernizer5152.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\plugin-active5152.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\plugin-active5152.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\popper.minf488.js",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\assets\\js\\popper.minf488.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\plugins\\tunis-toolkit\\elementor-addons\\widgets\\css\\tunis-essentialsaec2.html",
+      "PackagePath": "staticwebassets\\wp-content\\plugins\\tunis-toolkit\\elementor-addons\\widgets\\css\\tunis-essentialsaec2.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\animate.min5152.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\animate.min5152.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\bootstrap.mince52.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\bootstrap.mince52.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\font-awesome-pro7a5f.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\font-awesome-pro7a5f.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\meanmenu5d0a.html",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\meanmenu5d0a.html"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\reset5152.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\reset5152.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\css\\tunis-default8a54.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\css\\tunis-default8a54.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\img\\select-arrow.png",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\img\\select-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\js\\bootstrap.mince52.js",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\js\\bootstrap.mince52.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\js\\main5152.js",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\js\\main5152.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\assets\\webfonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\themes\\tunis-wp\\styleaec2.css",
+      "PackagePath": "staticwebassets\\wp-content\\themes\\tunis-wp\\styleaec2.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\bank app.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\bank app.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-1-150x150.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-1-150x150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-1-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-1-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-1.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-2-150x150.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-2-150x150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-2-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-2-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-2.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-3-150x150.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-3-150x150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-3-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-3-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-3.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-4-150x150.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-4-150x150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-4-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-4-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-4.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-5-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-5-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-5.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-6-150x150.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-6-150x150.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-6-300x300.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-6-300x300.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\blog-post-6.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\blog-post-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-experience-1.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-experience-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-experience-1.png",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-experience-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-experience-2-vid.mp4",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-experience-2-vid.mp4"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-experience-3.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-experience-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-logo.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-murphy.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-murphy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\decagon-view.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\decagon-view.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\dev-1.jpeg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\dev-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\dev-2.jpeg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\dev-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\dev-3.jpeg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\dev-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\dev-4.jpeg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\dev-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\img-mobile.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\img-mobile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\img.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\murphy-portrait.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\murphy-portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\payroll.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\payroll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-1.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-2.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-3.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-4.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-5.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-6.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-7.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-8.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\project-9.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\project-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\text-analysis.png",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\text-analysis.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\text-project.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\text-project.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\vivino-project.png",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\vivino-project.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\09\\vivino-wine.jpeg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\09\\vivino-wine.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\10\\cropped-favicon-150x150.png",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\10\\cropped-favicon-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\10\\cropped-favicon-300x300.png",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\10\\cropped-favicon-300x300.png"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\10\\hero-area.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\10\\hero-area.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\10\\murphy-portrait.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\10\\murphy-portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\2023\\10\\murphy.jpg",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\2023\\10\\murphy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\global8b6e.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\global8b6e.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-1492f83.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-1492f83.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-222c57b.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-222c57b.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-233a418.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-233a418.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-24158a5.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-24158a5.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-6370520.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-6370520.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-content\\uploads\\elementor\\css\\post-88b6e.css",
+      "PackagePath": "staticwebassets\\wp-content\\uploads\\elementor\\css\\post-88b6e.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\css\\dashicons.minaec2.css",
+      "PackagePath": "staticwebassets\\wp-includes\\css\\dashicons.minaec2.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\css\\dist\\block-library\\style.minaec2.css",
+      "PackagePath": "staticwebassets\\wp-includes\\css\\dist\\block-library\\style.minaec2.css"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\fonts\\dashicons7d4b.eot",
+      "PackagePath": "staticwebassets\\wp-includes\\fonts\\dashicons7d4b.eot"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\fonts\\dashicons7d4b.ttf",
+      "PackagePath": "staticwebassets\\wp-includes\\fonts\\dashicons7d4b.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\comment-reply.minaec2.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\comment-reply.minaec2.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\imagesloaded.minbb93.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\imagesloaded.minbb93.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\jquery\\jquery-migrate.min5589.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\jquery\\jquery-migrate.min5589.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\jquery\\jquery.masonry.minef70.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\jquery\\jquery.masonry.minef70.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\jquery\\jquery.minf43b.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\jquery\\jquery.minf43b.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\jquery\\ui\\core.min3f14.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\jquery\\ui\\core.min3f14.js"
+    },
+    {
+      "Id": "C:\\Users\\DECAGON\\source\\repos\\ProDevProfile\\ProDevProfile.Website\\wwwroot\\wp-includes\\js\\masonry.min3a05.js",
+      "PackagePath": "staticwebassets\\wp-includes\\js\\masonry.min3a05.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProDevProfile.Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProDevProfile.Website.props",
+      "PackagePath": "build\\ProDevProfile.Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProDevProfile.Website.props",
+      "PackagePath": "buildMultiTargeting\\ProDevProfile.Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProDevProfile.Website.props",
+      "PackagePath": "buildTransitive\\ProDevProfile.Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
